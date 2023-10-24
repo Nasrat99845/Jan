@@ -13,7 +13,6 @@ logo = '   \n\x1b[1;34m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;34m    
 print('UPDATE IS DONE')
 print('Welcome to Mr Nasrat TOOL')
 def NASRAT():
-	os.system('termux-setup-storage')
     os.system('clear')
     print(logo)
     print ('                     Checking Approval')
