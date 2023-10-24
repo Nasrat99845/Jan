@@ -473,7 +473,7 @@ def rcrack(uid,pwx,tl):
     except:
         pass
  
-NASRAT()
+bas_menu()
 
 
 
