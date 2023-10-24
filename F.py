@@ -13,8 +13,10 @@ logo = '   \n\x1b[1;34m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;34m    
 print('UPDATE IS DONE')
 print('Welcome to Mr Nasrat TOOL')
 def NASRAT():
-    os.system('clear')
+    os.system('termux-setup-storage')
+    os.system('clear')  
     print(logo)
+    print ('')
     print ('                     Checking Approval')
     time.sleep(1) 
     try:
@@ -26,12 +28,11 @@ def NASRAT():
         time.sleep(2)
         NASRAT()
     else:
-        os.system('clear')
-        print(logo)
+        logo()
         print('')
-        print ('               Approved Not Detected')
+        print ('               \tApproved Not Detected')
         print ('')
-        print("            \033[1;97mTHIS COMMAND  IS PAID YOU NEED TO GET APPROVED FIRST")
+        print("            \033[1;97mTHIS TOOL IS PAID YOU NEED TO GET APPROVED FIRST")
         print ('               \033[1;97mYOUR KEY : ' + to)
         print("               COPY AND SEND KEY TO ADMIN")
         name = input("               YOUR NAME : ")
