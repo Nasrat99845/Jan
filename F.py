@@ -24,7 +24,7 @@ def NASRAT():
     r = requests.get('https://github.com/Nasrat99845/Jan/blame/main/Ja.txt').text
     if to in r:
         time.sleep(2)
-        NASRAT()
+        bas_menu()
     else:
         os.system('clear')
         print(logo)
