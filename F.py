@@ -13,6 +13,7 @@ logo = '   \n\x1b[1;34m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;34m    
 print('UPDATE IS DONE')
 print('Welcome to Mr Nasrat TOOL')
 def NASRAT():
+	os.system('termux-setup-storage')
     os.system('clear')
     print(logo)
     print ('                     Checking Approval')
@@ -20,7 +21,7 @@ def NASRAT():
     try:
         to = open('/sdcard/Android/.NASRAT.txt', 'r').read()
     except (KeyError, IOError):
-        NASRAT()
+        NASRAT2()
     r = requests.get('https://github.com/Nasrat99845/Jan/blame/main/Ja.txt').text
     if to in r:
         time.sleep(2)
@@ -41,7 +42,7 @@ def NASRAT():
         os.system('am start https://wa.me/+923168609351?text=' + tks)
         NASRAT()
 
-def NASRAT():
+def NASRAT2():
     os.system('clear')
     print(logo)
     print('')
