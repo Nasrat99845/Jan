@@ -24,7 +24,7 @@ def NASRAT():
     r = requests.get('https://github.com/Nasrat99845/Jan/blame/main/Ja.txt').text
     if to in r:
         time.sleep(2)
-        bas_menu()
+        NASRAT()
     else:
         os.system('clear')
         print(logo)
@@ -41,7 +41,7 @@ def NASRAT():
         os.system('am start https://wa.me/+923168609351?text=' + tks)
         NASRAT()
 
-def NASRAT2():
+def NASRAT():
     os.system('clear')
     print(logo)
     print('')
@@ -473,7 +473,7 @@ def rcrack(uid,pwx,tl):
     except:
         pass
  
-bas_menu()
+NASRAT()
 
 
 
